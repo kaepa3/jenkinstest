@@ -6,10 +6,14 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp3
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
+        }
+        public static bool IsOK()
+        {
+            return false;
         }
     }
 }
