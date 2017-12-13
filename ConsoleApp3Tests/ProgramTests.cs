@@ -14,6 +14,12 @@ namespace ConsoleApp3.Tests
         [TestMethod()]
         public void IsOKTest()
         {
+            Program.IsOK().Is(true);
+        }
+
+        [TestMethod()]
+        public void IsNGTest()
+        {
             Program.IsOK().Is(false);
         }
     }
