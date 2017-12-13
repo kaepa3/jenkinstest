@@ -14,6 +14,7 @@ namespace ConsoleApp3.Tests
         [TestMethod()]
         public void IsOKTest()
         {
+
             Program.IsOK().Is(false);
         }
 
